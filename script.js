@@ -55,10 +55,36 @@ function showResult() {
     resultElement.classList.remove('hide');
     if (incorrectAnswers.length === 0) {
         resultElement.innerHTML = `<p>¡Lo completaste!</p>
+		<p>‎
+		<p>
+		<p>
+		<p>
+		<p>
+		<p>	
+		<p>
+		<p>
+		<p>
+		<p>
+		<p>
+		<p>
+		<p>
+		<p>
+		<p>
         <p>Si, lo completaste, me sorprende, a este punto me puedes imaginar rojo como un tomate y lo que te voy a poner continuación solo es un dato que quería poner en la carta esta alemana, eso si puedes hacer una cosa y no decirme que lo completaste así o puedes ver como el Germán del futuro se pone las manos en la cara muerto de vergüenza ahora si disfruta:</p>
         <p>A veces me pongo a pensar por qué me enamoré de ti, y aunque no lo tengo súper claro, hay algo que sí sé: me encanta cómo eres. Tu personalidad, tus gustos, esa forma de ser tan tuya, incluso cuando te despistas. Son esas cosas las que te hacen única y especial.</p>
         <p>Hay veces en las que coincidimos tanto en lo que pensamos, que me parece increíble. En lugar de decírtelo de manera seria, prefería hacer la broma de "conectados por Pepephone", para que fuera algo gracioso y solo nuestro. Y la verdad, no me arrepiento para nada de quererte o de haberte querido. Los momentos que pasamos juntos me ayudaron a ver el mundo de otra manera, a salir más y no quedarme encerrado en mi cuevita.</p>
-        <p>Salir contigo, pasarla bien, y simplemente estar juntos es de lo mejor que me ha pasado, y lo seguirá siendo. Por eso te quiero, y sé que siempre te querré.</p>`;
+        <p>Salir contigo, pasarla bien, y simplemente estar juntos es de lo mejor que me ha pasado, y lo seguirá siendo. Por eso te quiero, y sé que siempre te querré.
+		<p>‎ 
+		<p>‎ 
+		<p>‎ 
+		<p>‎ 
+		<p>‎ 
+		<p>‎ 
+		<p>‎ 
+		<p> Bueno, lo último que quería añadir es sobre el tiempo. A estas alturas es más que obvio lo que siento, pero bueno, dejemos eso a un lado por ahora. Lo que quiero es hablarte de cuando mencioné aquello de "sentimientos en pausa". Lo que realmente quise decir es que estoy dispuesto a esperar, porque lo que siento es tan fuerte, tan especial Es como una luz dentro de mí que nunca se apaga. Y, honestamente, siempre me digo a mí mismo: "Si tengo que esperar cuatro años, valdrá totalmente la pena". Hay tiempo de sobra para que todo crezca, y está bien así.
+		<p>No te digo esto esperando ninguna respuesta, de verdad, solo quería sacarlo. Germán te suelta esto porque es lo que siente, y si no lo digo, luego me arrepiento. Me encanta ser tan cabezón en este sentido, porque cualquier otra persona ya habría dejado todo, pero yo no, y me hace feliz que sea así. El tiempo decidirá todo, supongo. Yo, por mi parte, siempre daré lo mejor de mí para ti, como persona. Sé que ya lo ves, siempre busco maneras de hacer cosas juntos, de reírnos, de crear momentos.
+		<p>Sé que estos mensajes suenan un poco más serios de lo que suelo ser, pero me gusta mucho que contigo puedo ser más profundo y sincero, algo que no me pasa con el 99% de la gente que conozco. Pero bueno, al final, el tiempo dirá todo. Y ya está, no tengo más que decir… un beso, cuídate mucho. Chao ;3
+		</p>`;
     } else {
         resultElement.innerHTML = `<p>Fallaste en ${incorrectAnswers.length} preguntas.</p>
         <p>Vuelve a intentarlo.</p>
